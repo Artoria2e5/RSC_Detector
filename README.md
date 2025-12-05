@@ -50,6 +50,12 @@ The extension uses multiple detection techniques:
 2. **Manual Probe**: Click the extension icon and use the "Start Fingerprint Probe" button
 3. **View Results**: Check the popup for detection results and detailed information
 
+### Screenshot
+
+![Extension in action](images/img1.png)
+
+The screenshot above shows the extension running when RSC is detected, including passive detection results and active probing functionality.
+
 ## File Structure
 
 ```
@@ -60,7 +66,10 @@ RSC_Detector/
 ├── popup.js               # Popup functionality
 ├── background.js          # Background service worker
 ├── rules.json             # Network request rules
-└── README.md             # This file
+├── images/
+│   └── img1.png          # Extension screenshot
+├── README.md             # This file
+└── README_cn.md          # 中文文档 (Chinese documentation)
 ```
 
 ## Technical Details
@@ -97,6 +106,11 @@ This project is provided for educational purposes. Use responsibly and in accord
 ## Disclaimer
 
 This tool is designed for legitimate security research and educational purposes. Users are responsible for ensuring they have proper authorization before testing any systems. The authors are not responsible for misuse of this software.
+
+## Documentation
+
+- **English**: This file (README.md)
+- **中文**: [README_cn.md](README_cn.md) - 中文文档
 
 ---
 
